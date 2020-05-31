@@ -16,7 +16,11 @@ public class Demo {
         //validate if you are landed on correct url
         System.out.println("the url you directed to : "+driver.getCurrentUrl());
         //to print page source
-        System.out.println(driver.getPageSource());
+       // System.out.println(driver.getPageSource());
+
+        //to navigate back
+        driver.navigate().back();
+        System.out.println(driver.getTitle());
 
     }
 }
