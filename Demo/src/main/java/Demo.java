@@ -9,10 +9,14 @@ public class Demo {
         WebDriver driver = new ChromeDriver();
         //to hit the url and gets it title
         driver.get("https://google.com");
+        //validate if  the page name is correct
         System.out.println(driver.getTitle());
         //to check whether you land on the page you looking for or re_directed to other site
         driver.get("https://gmail.com");
+        //validate if you are landed on correct url
         System.out.println("the url you directed to : "+driver.getCurrentUrl());
+        //to print page source
+        System.out.println(driver.getPageSource());
 
     }
 }
