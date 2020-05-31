@@ -21,6 +21,14 @@ public class Demo {
         //to navigate back
         driver.navigate().back();
         System.out.println(driver.getTitle());
+        //to navigate forward
+        driver.navigate().forward();
+        System.out.println(driver.getTitle());
+
+        //to close current browser
+        driver.close();
+        //to close all the browser open by selenium script
+        driver.quit();
 
     }
 }
