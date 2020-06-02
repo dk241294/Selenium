@@ -9,7 +9,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class Google {
     public static void main(String[] args) throws InterruptedException {
         WebDriverManager.chromedriver().setup();
-        WebDriver driver =new ChromeDriver();
+        WebDriver driver = new ChromeDriver();
         driver.get("https://google.com");
         driver.findElement(By.xpath("//div[@class='RNNXgb']/div/div[2]/input")).sendKeys("sharukh");
         Thread.sleep(2000);
