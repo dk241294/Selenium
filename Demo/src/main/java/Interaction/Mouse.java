@@ -29,5 +29,6 @@ public class Mouse {
                 .click().keyDown(Keys.SHIFT).sendKeys("mobile").build().perform();
         //selecting the text
         a.moveToElement(driver.findElement(By.id("twotabsearchtextbox"))).doubleClick().build().perform();
+    a.moveToElement(driver.findElement(By.xpath("//a[@id='nav-link-prime']/span"))).contextClick().build().perform();
     }
 }
