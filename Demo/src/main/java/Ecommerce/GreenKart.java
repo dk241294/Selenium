@@ -21,10 +21,10 @@ public class GreenKart {
 
     public static void kart(WebDriver driver) throws InterruptedException {
         int count = 0;
-        int loopRun=0;
+        int loopRun = 0;
         driver.get("https://rahulshettyacademy.com/seleniumPractise");
         Thread.sleep(2000);
-        String[] itemToPurchase = { "Beetroot", "Brinjal", "Pumpkin","Cucumber","Apple","Banana"};
+        String[] itemToPurchase = {"Beetroot", "Brinjal", "Pumpkin", "Cucumber", "Apple", "Banana",};
         List<WebElement> product = driver.findElements(By.cssSelector("h4.product-name"));
         for (int i = 0; i < product.size(); i++) {
             loopRun++;
@@ -43,13 +43,15 @@ public class GreenKart {
                 //never depend on text its changes .find its parent
 
                 driver.findElements(By.cssSelector(".product-action")).get(i).click();
-                if(itemToPurchase.length==count){
-                    System.out.println(count);
-                    System.out.println(loopRun);
+                if (itemToPurchase.length == count) {
+//                    System.out.println(count);
+//                    System.out.println(loopRun);
                     break;
                 }
             }
         }
+        System.out.println(count);
+        System.out.println(loopRun);
 
     }
 }
