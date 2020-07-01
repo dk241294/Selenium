@@ -1,3 +1,6 @@
+package homepage;
+
+import base.Base;
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
@@ -6,7 +9,7 @@ import pageObject.LoginPage;
 
 import java.io.IOException;
 
-public class HomePage extends BaseClass {
+public class HomePage extends Base {
     @Test(dataProvider="getData")
     public void basePageNavigation(String name,String password) throws IOException {
         driver = initializeDriver(); //it return driver and we have driver object in base class which we inherited

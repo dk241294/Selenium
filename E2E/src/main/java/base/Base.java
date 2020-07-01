@@ -1,3 +1,5 @@
+package base;
+
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -9,8 +11,8 @@ import java.io.IOException;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
-public class BaseClass {
-    WebDriver driver;
+public class Base {
+    public WebDriver driver;
 
     public WebDriver initializeDriver() throws IOException {
         Properties prop = new Properties();
