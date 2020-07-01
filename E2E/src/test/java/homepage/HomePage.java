@@ -1,7 +1,6 @@
 package homepage;
 
 import base.Base;
-import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import pageObject.LandingPage;
@@ -13,7 +12,7 @@ public class HomePage extends Base {
     @Test(dataProvider="getData")
     public void basePageNavigation(String name,String password) throws IOException {
         driver = initializeDriver(); //it return driver and we have driver object in base class which we inherited
-        driver.get("http://www.qaclickacademy.com/");
+        driver.get(prop.getProperty("url"));
         driver.getTitle();
         // driver.findElement(B)
         LandingPage lp = new LandingPage(driver);
