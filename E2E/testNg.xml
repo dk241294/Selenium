@@ -3,9 +3,10 @@
 <suite name="Suite">
     <test name="Test">
         <classes>
-        <class name="homepage.HomePage"/>
-        <class name="validateNavBar.ValidateNavigationBar"/>
-        <class name="validateTitle.ValidateTitle"/>
+            <class name="homepage.HomePage"/>
+            <class name="validateNavBar.ValidateNavigationBar"/>
+            <class name="validateTitle.ValidateTitle"/>
+
 
         </classes>
     </test>
