@@ -15,9 +15,9 @@ public class SmallestNumberInMatrix {
     }
 
     public void max() {
-        int a[][] = {{222, 4, 6}, {44, 68, 3}, {7, 8, 66}};
+        int a[][] = {{4, 14, 666}, {44, 4,13}, {7, 8, 676}};
         int smallest = a[0][0];
-        int biggest = a[0][0];
+        int biggest;
         int col = 0;
         int j;
         for (int i = 0; i < 3; i++) {
@@ -28,10 +28,14 @@ public class SmallestNumberInMatrix {
 
                 }
             }
-            if (smallest < a[i][col]) {
-                biggest = a[i][col];
-            }
 
+
+        }
+        biggest = a[0][col];
+        for (int k = 0; k < 3; k++) {
+            if (biggest < a[k][col]) {
+                biggest = a[k][col];
+            }
 
         }
 
