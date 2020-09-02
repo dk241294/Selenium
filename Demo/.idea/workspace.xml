@@ -1,25 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="92c28d8b-42d4-4f3c-8dfc-5bd728ff34c8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Collection/ArrayListExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Collection/ArrayListExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/windowPopUp/WindowPopUpAuthentication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/windowPopUp/WindowPopUpAuthentication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../E2E/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../E2E/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../E2E/src/test/java/homepage/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../E2E/src/test/java/homepage/HomePage.java" afterDir="false" />
-    </list>
+    <list default="true" id="92c28d8b-42d4-4f3c-8dfc-5bd728ff34c8" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -170,22 +152,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="462" y="94" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1593324431297" />
-    <state width="1323" height="163" key="GridCell.Tab.0.bottom" timestamp="1595528330504">
+    <state width="1323" height="163" key="GridCell.Tab.0.bottom" timestamp="1599025036807">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="163" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1595528330504" />
-    <state width="1323" height="163" key="GridCell.Tab.0.center" timestamp="1595528330503">
+    <state width="1323" height="163" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1599025036807" />
+    <state width="1323" height="163" key="GridCell.Tab.0.center" timestamp="1599025036807">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="163" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1595528330503" />
-    <state width="1323" height="163" key="GridCell.Tab.0.left" timestamp="1595528330503">
+    <state width="1323" height="163" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1599025036807" />
+    <state width="1323" height="163" key="GridCell.Tab.0.left" timestamp="1599025036807">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="163" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1595528330503" />
-    <state width="1323" height="163" key="GridCell.Tab.0.right" timestamp="1595528330504">
+    <state width="1323" height="163" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1599025036807" />
+    <state width="1323" height="163" key="GridCell.Tab.0.right" timestamp="1599025036807">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="163" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1595528330504" />
+    <state width="1323" height="163" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1599025036807" />
     <state width="1286" height="203" key="GridCell.Tab.1.bottom" timestamp="1594359822809">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
