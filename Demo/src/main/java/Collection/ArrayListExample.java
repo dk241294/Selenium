@@ -13,8 +13,9 @@ public class ArrayListExample {
         a.add(35);
         System.out.println( a.get(1));;
         a.remove(2);
-        a.remove(new Integer(21));
+        a.remove(Integer.valueOf(21));
         System.out.println(a);
-        System.out.println( a.indexOf(new Integer(31))); ;
+        System.out.println( a.indexOf(31));
+        System.out.println(a.contains(31));;
     }
 }

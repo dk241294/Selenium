@@ -10,6 +10,7 @@ public class WindowPopUpAuthentication {
         WebDriverManager.chromedriver().setup();
         WebDriver driver= new ChromeDriver();
         driver.get("https://admin:admin@the-internet.herokuapp.com/");
+        driver.navigate().to("https://admin:admin@the-internet.herokuapp.com/");
         driver.findElement(By.linkText("Basic Auth")).click();
         System.out.println(driver.findElement(By.id("content")).getText());;
 
